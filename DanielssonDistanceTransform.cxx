@@ -15,7 +15,7 @@ int main(int argc, char * argv[])
   typedef unsigned char InputPixelType;
   typedef float OutputPixelType;
   typedef unsigned short VoronoiPixelType;
-  const unsigned int Dimension = 2;
+  const unsigned int Dimension = 3;
 
   typedef itk::Image< InputPixelType, Dimension > InputImageType;
   typedef itk::Image< OutputPixelType, Dimension > OutputImageType;
